@@ -1,0 +1,30 @@
+{
+  "name": "amusely",
+  "version": "1.0.0",
+  "description": "Personal Website and prtfolio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/gulp/bin/gulp.js develop",
+    "tailwind:css": "./node_modules/postcss-cli/bin/postcss twcss/tailwind.css -o public/css/tailwind.css"
+  },
+  "author": "Aurthur Musendame",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "autoprefixer": "^9.7.6",
+    "browser-sync": "^2.26.7",
+    "del": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.15",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}
