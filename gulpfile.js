@@ -71,11 +71,11 @@ function images() {
     .src(paths.images.src, {
       since: gulp.lastRun(images),
     })
-    .pipe(
-      imagemin({
-        optimizationLevel: 5,
-      })
-    )
+    // .pipe(                           has errors
+    //   imagemin({
+    //     optimizationLevel: 5,
+    //   })
+    // )
     .pipe(gulp.dest(paths.images.dest));
 }
 

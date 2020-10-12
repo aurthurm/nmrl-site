@@ -26,5 +26,8 @@
     "lodash": "^4.17.15",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.4.6"
+  },
+  "dependencies": {
+    "imagemin-optipng": "^7.1.0"
   }
 }
