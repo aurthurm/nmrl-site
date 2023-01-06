@@ -10,7 +10,7 @@
   "author": "Aurthur Musendame",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.0.0",
+    "@babel/core": "^7.20.12",
     "autoprefixer": "^9.7.6",
     "browser-sync": "^2.26.7",
     "del": "^3.0.0",
